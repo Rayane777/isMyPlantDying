@@ -1,0 +1,36 @@
+/* custom-carousel.css */
+.custom-img {
+    width: 400px;
+    height: 600px; 
+  }
+  
+  .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; 
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+    backdrop-filter: blur(5px); /* Add the blur effect to the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 700px;
+ 
+    
+  }
+  
+  .text-overlay {
+    color: #fff; /* Text color */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .carouselImg {
+    width: 100%;
+    height: 900px; 
+
+  }
+
+ 
